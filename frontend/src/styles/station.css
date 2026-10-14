@@ -1,0 +1,53 @@
+.station-panel{
+
+    margin-left:280px;
+
+    margin-right:20px;
+
+    margin-top:20px;
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    box-shadow:0px 4px 12px rgba(0,0,0,.08);
+
+}
+
+.station-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding:15px;
+
+    border-bottom:1px solid #eee;
+
+}
+
+.running{
+
+    color:green;
+
+    font-weight:bold;
+
+}
+
+.slow{
+
+    color:orange;
+
+    font-weight:bold;
+
+}
+
+.bottleneck{
+
+    color:red;
+
+    font-weight:bold;
+
+}

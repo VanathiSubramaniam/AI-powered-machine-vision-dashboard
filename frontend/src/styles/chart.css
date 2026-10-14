@@ -1,0 +1,50 @@
+.chart-card{
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    box-shadow:0px 4px 12px rgba(0,0,0,.08);
+
+    margin-top:20px;
+
+}
+.heat-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.heat-table td{
+
+    padding:40px;
+
+    text-align:center;
+
+    color:white;
+
+    font-weight:bold;
+
+}
+
+.green{
+
+    background:#22c55e;
+
+}
+
+.yellow{
+
+    background:#f59e0b;
+
+}
+
+.red{
+
+    background:#ef4444;
+
+}

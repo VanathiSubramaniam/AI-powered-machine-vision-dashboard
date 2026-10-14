@@ -1,0 +1,48 @@
+# ─── Python / Flask Backend ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv
+env/
+venv/
+ENV/
+
+# SQLite database (contains seeded data — regenerated on first run)
+backend/assembly_line.db
+
+# YOLOv8 model weights (large binary – not tracked in git)
+backend/*.pt
+backend/models/
+
+# OpenCV / upload artifacts
+uploads/
+
+# ─── Node / React Frontend ────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ─── OS / IDE artifacts ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
